@@ -95,88 +95,101 @@ function App() {
   }
 
   return (
-    <main className="app-shell">
-      <nav className="topbar">
+    <div className="app-shell">
+      <aside className="sidebar">
         <a className="brand" href="#top" aria-label="Yuna AI home">
           <span className="brand-mark"><Icon name="sparkles" /></span>
           <span>Yuna<span>AI</span></span>
         </a>
-        <div className="nav-actions">
+
+        <nav className="side-nav" role="tablist">
+          <span className="side-label">Studio</span>
+          <button className={mode === 'text' ? 'side-item active' : 'side-item'} onClick={() => setMode('text')} type="button"><Icon name="sparkles" /> Text to image</button>
+          <button className={mode === 'image' ? 'side-item active' : 'side-item'} onClick={() => setMode('image')} type="button"><Icon name="image" /> Image to image</button>
+
+          <span className="side-label">Resources</span>
+          <a className="side-item" href="/admin/" target="_blank" rel="noreferrer"><Icon name="download" /> Token Keeper</a>
+          <a className="side-item" href="https://gemini.google.com/app" target="_blank" rel="noreferrer"><Icon name="plus" /> Open Gemini</a>
+        </nav>
+
+        <div className="side-footer">
           <span className="status"><i /> AI Studio online</span>
           <button className="avatar" type="button" aria-label="Account">Y</button>
         </div>
-      </nav>
+      </aside>
 
-      <section className="hero" id="top">
-        <div className="eyebrow"><Icon name="sparkles" /> CREATE WITHOUT LIMITS</div>
-        <h1>Your ideas, rendered<br /><span>beautifully.</span></h1>
-        <p>Turn a few words or an existing image into original visuals in seconds.</p>
-      </section>
+      <div className="main-col">
+        <section className="hero" id="top">
+          <div className="eyebrow"><Icon name="sparkles" /> CREATE WITHOUT LIMITS</div>
+          <h1>Your ideas, rendered<br /><span>beautifully.</span></h1>
+          <p>Turn a few words or an existing image into original visuals in seconds.</p>
+        </section>
 
-      <section className="studio">
-        <div className="mode-tabs" role="tablist">
-          <button className={mode === 'text' ? 'active' : ''} onClick={() => setMode('text')} type="button"><Icon name="sparkles" /> Text to image</button>
-          <button className={mode === 'image' ? 'active' : ''} onClick={() => setMode('image')} type="button"><Icon name="image" /> Image to image</button>
-        </div>
+        <section className="studio">
+          <div className="studio-head">
+            <h2>{mode === 'text' ? 'Text to image' : 'Image to image'}</h2>
+            <span className="studio-sub">{mode === 'text' ? 'Deskripsikan gambar yang kamu bayangkan' : 'Upload gambar lalu tulis instruksi transformasi'}</span>
+          </div>
 
-        <div className="workspace">
-          <div className="controls">
-            {mode === 'image' && (
-              <div className="field-block">
-                <div className="field-label"><span>Reference image</span><small>Upload gambar sumber untuk ditransformasi (maks 8MB)</small></div>
-                {sourcePreview ? (
-                  <div className="source-preview" style={{ position: 'relative', borderRadius: 12, overflow: 'hidden' }}>
-                    <img src={sourcePreview} alt="Reference" style={{ width: '100%', display: 'block', borderRadius: 12 }} />
-                    <button type="button" onClick={() => { setSourceImage(null); setSourcePreview(null) }} style={{ position: 'absolute', top: 8, right: 8, border: 0, borderRadius: '50%', width: 28, height: 28, cursor: 'pointer', background: 'rgba(0,0,0,.6)', color: '#fff', fontWeight: 700 }}>×</button>
-                  </div>
-                ) : (
-                  <label className="dropzone" style={{ cursor: 'pointer', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 6, padding: '28px 16px', border: '1.5px dashed rgba(255,255,255,.25)', borderRadius: 12 }}>
-                    <span><Icon name="upload" /></span>
-                    <strong>Upload gambar</strong>
-                    <small>Klik untuk pilih file (PNG/JPG)</small>
-                    <input type="file" accept="image/*" onChange={handleFile} style={{ display: 'none' }} />
-                  </label>
-                )}
+          <div className="workspace">
+            <div className="controls">
+              {mode === 'image' && (
+                <div className="field-block">
+                  <div className="field-label"><span>Reference image</span><small>Upload gambar sumber untuk ditransformasi (maks 8MB)</small></div>
+                  {sourcePreview ? (
+                    <div className="source-preview" style={{ position: 'relative', borderRadius: 12, overflow: 'hidden' }}>
+                      <img src={sourcePreview} alt="Reference" style={{ width: '100%', display: 'block', borderRadius: 12 }} />
+                      <button type="button" onClick={() => { setSourceImage(null); setSourcePreview(null) }} style={{ position: 'absolute', top: 8, right: 8, border: 0, borderRadius: '50%', width: 28, height: 28, cursor: 'pointer', background: 'rgba(0,0,0,.6)', color: '#fff', fontWeight: 700 }}>×</button>
+                    </div>
+                  ) : (
+                    <label className="dropzone" style={{ cursor: 'pointer', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 6, padding: '28px 16px', border: '1.5px dashed rgba(255,255,255,.25)', borderRadius: 12 }}>
+                      <span><Icon name="upload" /></span>
+                      <strong>Upload gambar</strong>
+                      <small>Klik untuk pilih file (PNG/JPG)</small>
+                      <input type="file" accept="image/*" onChange={handleFile} style={{ display: 'none' }} />
+                    </label>
+                  )}
+                </div>
+              )}
+
+              <div className="field-block prompt-block">
+                <div className="field-label"><span>{mode === 'text' ? 'Describe your image' : 'Describe the transformation'}</span><small>{prompt.length}/500</small></div>
+                <textarea value={prompt} maxLength="500" onChange={(event) => setPrompt(event.target.value)} placeholder={mode === 'text' ? 'A dreamy glass house in a lavender field at golden hour...' : 'Transform this into a dreamy watercolor illustration...'} />
+                <button className="surprise" type="button" onClick={() => setPrompt('A futuristic botanical garden floating above the clouds, soft cinematic light')}><Icon name="sparkles" /> Surprise me</button>
               </div>
-            )}
 
-            <div className="field-block prompt-block">
-              <div className="field-label"><span>{mode === 'text' ? 'Describe your image' : 'Describe the transformation'}</span><small>{prompt.length}/500</small></div>
-              <textarea value={prompt} maxLength="500" onChange={(event) => setPrompt(event.target.value)} placeholder={mode === 'text' ? 'A dreamy glass house in a lavender field at golden hour...' : 'Transform this into a dreamy watercolor illustration...'} />
-              <button className="surprise" type="button" onClick={() => setPrompt('A futuristic botanical garden floating above the clouds, soft cinematic light')}><Icon name="sparkles" /> Surprise me</button>
+              <div className="option-grid">
+                <label>Aspect ratio<select value={ratio} onChange={(event) => setRatio(event.target.value)}><option>1:1</option><option>16:9</option><option>4:3</option><option>9:16</option></select></label>
+                <label>Visual style<select value={style} onChange={(event) => setStyle(event.target.value)}><option>Cinematic</option><option>Photorealistic</option><option>Watercolor</option><option>3D render</option><option>Editorial</option></select></label>
+              </div>
+
+              <button className="generate" disabled={!prompt.trim() || isGenerating || (mode === 'image' && !sourceImage)} onClick={generate} type="button">
+                {isGenerating ? <><span className="spinner" /> Creating your image...</> : <><Icon name="sparkles" /> Generate image</>}
+              </button>
             </div>
 
-            <div className="option-grid">
-              <label>Aspect ratio<select value={ratio} onChange={(event) => setRatio(event.target.value)}><option>1:1</option><option>16:9</option><option>4:3</option><option>9:16</option></select></label>
-              <label>Visual style<select value={style} onChange={(event) => setStyle(event.target.value)}><option>Cinematic</option><option>Photorealistic</option><option>Watercolor</option><option>3D render</option><option>Editorial</option></select></label>
+            <div className="output">
+              {isGenerating ? (
+                <div className="loading-state"><div className="orb" /><strong>Bringing your idea to life</strong><span>This usually takes a few seconds</span></div>
+              ) : result ? (
+                <div className="result-card"><img src={result} alt={prompt} /><div className="result-actions"><span>{style} · {ratio}</span><a href={result} download="yuna-ai.jpg" target="_blank" rel="noreferrer"><Icon name="download" /> Download</a></div></div>
+              ) : (
+                <div className="empty-state"><span className="empty-icon"><Icon name="image" /></span><strong>Your creation appears here</strong><p>Describe what you imagine, choose your settings, and let YunaAI do the rest.</p><div className="mini-cards"><i /><i /><i /></div></div>
+              )}
             </div>
-
-            <button className="generate" disabled={!prompt.trim() || isGenerating || (mode === 'image' && !sourceImage)} onClick={generate} type="button">
-              {isGenerating ? <><span className="spinner" /> Creating your image...</> : <><Icon name="sparkles" /> Generate image</>}
-            </button>
           </div>
+        </section>
 
-          <div className="output">
-            {isGenerating ? (
-              <div className="loading-state"><div className="orb" /><strong>Bringing your idea to life</strong><span>This usually takes a few seconds</span></div>
-            ) : result ? (
-              <div className="result-card"><img src={result} alt={prompt} /><div className="result-actions"><span>{style} · {ratio}</span><a href={result} download="yuna-ai.jpg" target="_blank" rel="noreferrer"><Icon name="download" /> Download</a></div></div>
-            ) : (
-              <div className="empty-state"><span className="empty-icon"><Icon name="image" /></span><strong>Your creation appears here</strong><p>Describe what you imagine, choose your settings, and let YunaAI do the rest.</p><div className="mini-cards"><i /><i /><i /></div></div>
-            )}
+        <section className="inspiration">
+          <div><span>Fresh inspiration</span><h2>Made with YunaAI</h2></div>
+          <div className="gallery">
+            {samples.map((sample) => <article key={sample.id} style={{ '--start': sample.colors[0], '--end': sample.colors[1] }}><div className="art"><span>{sample.title}</span></div><p>{sample.prompt}</p><button type="button" onClick={() => { setPrompt(sample.prompt); setMode('text'); window.scrollTo({ top: 400, behavior: 'smooth' }) }}><Icon name="plus" /> Use prompt</button></article>)}
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section className="inspiration">
-        <div><span>Fresh inspiration</span><h2>Made with YunaAI</h2></div>
-        <div className="gallery">
-          {samples.map((sample) => <article key={sample.id} style={{ '--start': sample.colors[0], '--end': sample.colors[1] }}><div className="art"><span>{sample.title}</span></div><p>{sample.prompt}</p><button type="button" onClick={() => { setPrompt(sample.prompt); setMode('text'); window.scrollTo({ top: 400, behavior: 'smooth' }) }}><Icon name="plus" /> Use prompt</button></article>)}
-        </div>
-      </section>
-
-      <footer><div className="brand"><span className="brand-mark"><Icon name="sparkles" /></span><span>Yuna<span>AI</span></span></div><p>Made for ideas that deserve to be seen.</p><span>© 2026 YunaAI</span></footer>
-    </main>
+        <footer><div className="brand"><span className="brand-mark"><Icon name="sparkles" /></span><span>Yuna<span>AI</span></span></div><p>Made for ideas that deserve to be seen.</p><span>© 2026 YunaAI</span></footer>
+      </div>
+    </div>
   )
 }
 
