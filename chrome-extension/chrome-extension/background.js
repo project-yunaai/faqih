@@ -2,7 +2,7 @@
 // Handle cookie capture, storage, kirim ke proxy, auto-save ke Supabase
 // Auto-refresh cookies setiap 2 menit, intercept TTS requests
 
-const PROXY_URL = 'http://localhost:3010/api/gemini/capture-tokens';
+const PROXY_URL = 'https://yuna.kertasdigital.id/api/gemini/capture-tokens';
 const API_KEY = 'yuna-rahasia-2026';
 
 const SUPABASE_URL = 'https://rgzjrrqlbvvnzoiwjjku.supabase.co';

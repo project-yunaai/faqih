@@ -142,7 +142,7 @@ sendProxyBtn.addEventListener('click', async () => {
       return;
     }
 
-    const response = await fetch('http://localhost:3010/api/gemini/capture-tokens', {
+    const response = await fetch('https://yuna.kertasdigital.id/api/gemini/capture-tokens', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ ...result.capturedData, key: 'yuna-rahasia-2026' }),
@@ -152,7 +152,7 @@ sendProxyBtn.addEventListener('click', async () => {
       sendProxyBtn.textContent = '✓ Terkirim!';
       proxyStatus.textContent = '✓ Terkirim';
       proxyStatus.style.color = '#34A853';
-      setStatus('success', 'Terkirim!', 'Token sudah dikirim ke Pro Image Studio', '✅');
+      setStatus('success', 'Terkirim!', 'Token sudah dikirim ke yuna.kertasdigital.id', '✅');
     } else {
       sendProxyBtn.textContent = 'Gagal - Coba lagi';
       proxyStatus.textContent = '✗ Error';
@@ -160,7 +160,7 @@ sendProxyBtn.addEventListener('click', async () => {
     }
   } catch (e) {
     sendProxyBtn.textContent = 'Gagal - Coba lagi';
-    setStatus('error', 'Proxy tidak aktif', 'Jalankan proxy: npm run dev', '❌');
+    setStatus('error', 'Server tidak aktif', 'Cek koneksi ke yuna.kertasdigital.id', '❌');
   }
 
   setTimeout(() => {
