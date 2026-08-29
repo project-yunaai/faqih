@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 380px;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: #0f0f0f;
+  color: #e0e0e0;
+}
+
+.container {
+  padding: 16px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.logo-icon {
+  font-size: 22px;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #4285F4, #34A853, #FBBC04);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.subtitle {
+  font-size: 11px;
+  color: #666;
+  margin-top: 2px;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #2a2a2a;
+  background: #1a1a1a;
+  transition: all 0.2s;
+}
+
+.status-idle { border-color: #333; }
+.status-success { border-color: #34A853; background: rgba(52, 168, 83, 0.08); }
+.status-error { border-color: #EA4335; background: rgba(234, 67, 53, 0.08); }
+.status-loading { border-color: #4285F4; background: rgba(66, 133, 244, 0.08); }
+
+.status-icon {
+  font-size: 20px;
+  width: 28px;
+  text-align: center;
+}
+
+.status-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #e0e0e0;
+}
+
+.status-desc {
+  font-size: 11px;
+  color: #888;
+  margin-top: 1px;
+}
+
+.status-success .status-title { color: #34A853; }
+.status-error .status-title { color: #EA4335; }
+.status-loading .status-title { color: #4285F4; }
+
+.btn-capture {
+  width: 100%;
+  padding: 11px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #4285F4, #34A853);
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: opacity 0.2s;
+  margin-bottom: 8px;
+}
+
+.btn-capture:hover { opacity: 0.9; }
+.btn-capture:active { opacity: 0.8; }
+.btn-capture:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.btn-secondary {
+  width: 100%;
+  padding: 9px;
+  border: 1px solid #2a2a2a;
+  border-radius: 10px;
+  background: #1a1a1a;
+  color: #aaa;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-bottom: 12px;
+}
+
+.btn-secondary:hover {
+  border-color: #4285F4;
+  color: #e0e0e0;
+}
+
+.tokens-panel {
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 12px;
+}
+
+.tokens-panel h2 {
+  font-size: 13px;
+  font-weight: 600;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.token-group {
+  margin-bottom: 10px;
+}
+
+.token-group label {
+  display: block;
+  font-size: 11px;
+  color: #666;
+  margin-bottom: 3px;
+}
+
+.token-row {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.token-value {
+  flex: 1;
+  background: #0f0f0f;
+  border: 1px solid #222;
+  border-radius: 6px;
+  padding: 6px 8px;
+  font-size: 11px;
+  color: #4285F4;
+  font-family: 'Consolas', monospace;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
+
+.cookie-value {
+  max-height: 40px;
+  overflow-y: auto;
+  white-space: normal;
+  word-break: break-all;
+  font-size: 10px;
+  line-height: 1.3;
+}
+
+.btn-copy {
+  flex-shrink: 0;
+  padding: 5px 10px;
+  border: 1px solid #2a2a2a;
+  border-radius: 6px;
+  background: #222;
+  color: #aaa;
+  font-size: 11px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.btn-copy:hover {
+  background: #4285F4;
+  color: white;
+  border-color: #4285F4;
+}
+
+.btn-copy.copied {
+  background: #34A853;
+  color: white;
+  border-color: #34A853;
+}
+
+.info-row {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #222;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.info-label {
+  font-size: 10px;
+  color: #555;
+}
+
+.info-value {
+  font-size: 11px;
+  color: #aaa;
+}
+
+.btn-send {
+  width: 100%;
+  margin-top: 10px;
+  padding: 9px;
+  border: none;
+  border-radius: 8px;
+  background: #34A853;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.btn-send:hover { opacity: 0.9; }
+.btn-send:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.footer {
+  text-align: center;
+  padding-top: 8px;
+}
+
+.footer p {
+  font-size: 10px;
+  color: #555;
+  line-height: 1.4;
+}
+
+.footer code {
+  color: #4285F4;
+}
+
+.hidden { display: none; }

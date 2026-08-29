@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gemini Token Capture</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <span class="logo-icon">✨</span>
+        <h1>Gemini Capture</h1>
+      </div>
+      <p class="subtitle">Token & Cookie Extractor</p>
+    </header>
+
+    <div id="status" class="status status-idle">
+      <div class="status-icon" id="statusIcon">⏳</div>
+      <div class="status-text">
+        <p class="status-title" id="statusTitle">Menunggu</p>
+        <p class="status-desc" id="statusDesc">Buka halaman Gemini lalu klik Capture</p>
+      </div>
+    </div>
+
+    <button id="captureBtn" class="btn-capture">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+        <circle cx="12" cy="13" r="4"/>
+      </svg>
+      Capture Tokens
+    </button>
+
+    <button id="openGeminiBtn" class="btn-secondary">
+      Buka Gemini
+    </button>
+
+    <div id="tokensPanel" class="tokens-panel hidden">
+      <h2>📋 Token Ter-capture</h2>
+
+      <div class="token-group">
+        <label>CSRF Token (at)</label>
+        <div class="token-row">
+          <code id="token-at" class="token-value">-</code>
+          <button class="btn-copy" data-target="token-at">Copy</button>
+        </div>
+      </div>
+
+      <div class="token-group">
+        <label>Session ID (f.sid)</label>
+        <div class="token-row">
+          <code id="token-fsid" class="token-value">-</code>
+          <button class="btn-copy" data-target="token-fsid">Copy</button>
+        </div>
+      </div>
+
+      <div class="token-group">
+        <label>Build Version (bl)</label>
+        <div class="token-row">
+          <code id="token-bl" class="token-value">-</code>
+          <button class="btn-copy" data-target="token-bl">Copy</button>
+        </div>
+      </div>
+
+      <div class="token-group">
+        <label>Share ID</label>
+        <div class="token-row">
+          <code id="token-shareid" class="token-value">-</code>
+          <button class="btn-copy" data-target="token-shareid">Copy</button>
+        </div>
+      </div>
+
+      <div class="token-group">
+        <label>Cookies</label>
+        <div class="token-row">
+          <code id="token-cookies" class="token-value cookie-value">-</code>
+          <button class="btn-copy" data-target="token-cookies">Copy</button>
+        </div>
+      </div>
+
+      <div class="info-row">
+        <div class="info-item">
+          <span class="info-label">Supabase:</span>
+          <span id="supabaseStatus" class="info-value">-</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Proxy:</span>
+          <span id="proxyStatus" class="info-value">-</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Captured:</span>
+          <span id="captureTime" class="info-value">-</span>
+        </div>
+      </div>
+
+      <div class="info-row" style="margin-top: 8px; padding-top: 8px; border-top: 1px solid #222;">
+        <div class="info-item">
+          <span class="info-label">Auto-refresh:</span>
+          <span class="info-value" style="color: #34A853;">✓ Setiap 2 menit</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">TTS Intercept:</span>
+          <span class="info-value" style="color: #4285F4;">✓ Aktif</span>
+        </div>
+      </div>
+
+      <button id="sendProxyBtn" class="btn-send">
+        Kirim ke Pro Image Studio
+      </button>
+    </div>
+
+    <div class="footer">
+      <p>v2.0 · Auto-capture tokens + cookies setiap 2 menit<br/>TTS request interceptor aktif · Cloud sync Supabase</p>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

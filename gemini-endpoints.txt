@@ -1,0 +1,31 @@
+1. GET https://4hzb3lj06hkghsenvsb9t56d0721814dm720zwhz0698xwzc2w-h966586903.scf.usercontent.goog/gemini-code-immersive/shim.html
+   Type: document
+   Params: {"origin":"https://gemini.google.com","cache":"1"}
+
+2. GET https://accounts.google.com/RotateCookiesPage
+   Type: document
+   Params: {"og_pid":"658","rot":"3","origin":"https://gemini.google.com","exp_id":"0"}
+
+3. POST https://gemini.google.com/_/BardChatUi/data/batchexecute
+   Type: xhr
+   Params: {"rpcids":"otAQ7b","source-path":"/share/b1493cbc4a17","bl":"boq_assistant-bard-web-server_20260821.03_p0","f.sid":"6751928901003072751","hl":"id","_reqid":"59911","rt":"c"}
+
+4. GET https://gemini.google.com/_/bscframe
+   Type: document
+   Params: {}
+
+5. GET https://gemini.google.com/generate_204
+   Type: image
+   Params: {"V5C6QA":""}
+
+6. GET https://gemini.google.com/share/b1493cbc4a17
+   Type: document
+   Params: {"skid":"289a934e-5432-4462-b43d-dcd739f84ed6"}
+
+7. GET https://ogs.google.com/u/0/widget/app
+   Type: document
+   Params: {"eom":"1","awwd":"1","em":"2","scv":"1","dpi":"103135050","origin":"https://gemini.google.com","cn":"app","pid":"269","spid":"658","hl":"id","xstg":"CAMSuQUVsQLM2swNqASxpNAFsCrJ5_kO0_UF6wK33rsXnsL6A-Esk_TcBtkFze8GpvwEPrB5vkuLBdOiBqPXBuWjBUK1wAaIO-TzBZDlDrbtBtwa2poGlwXPVZZbjm0D2GenVPYJuxOyEqQA4N8Go1E6qFmmBprYBqVKnD7TBbFLn8UGCIFiXNc46I0GygYwpyPwF7BezEPFNaps3R67FooEbu0AsUyxLIsUFJ8-sja7PvGRBtwUUtoL5hHzLd1LJoESmHzdGqkay6oGoVHHErhKjGPjFJ8FzCi4LsdNnB2PD5LumwaN3DDY3p4GntdHggulRsJCnCailgOKAoUusBNw40icboh-1xalHY6wBt7TBckLm44G3gQFqRepROQAugv6LsQCtAID3B2SgQavWAP-PMGaBsOaBT7ebP4bgQPXtwbxG88DskYPA8sZhBPkDd4mlSaJEOwzhkOHNPcEjju2EyuEP_A9A64jyj7zN4MTxPkG8CahBukt6hKkM9II3C-wDvUF9SqIKa86_CmIGapxmnQDA65lgAME1gGxTM0IhSG-JJ4ZiA38EalXAwNJpQLNDQMDI8oDAwP5EzwDA-YZsATJBAPeI062Aqk48TrFaMsxqyREA_t9zBuRJNgGA9kC-gMDA8MewQHuDJEroV2_AMklA4cKygmYAcwaRAMDAwOHEOEFxAWGTasJhzfiA8gK0wA_0BziH48C0BSFEWLwHfsswRfeNokWrAqeGcQFCY4ZlAbQI_xM4wz5cdssqD8DA4hVA5wLqArjEMU9owLWIu085wHAJd1HuCGOI_EFjCXcM44GmGaeGB7MDe8Op1wD6wbZrQawHarvBuIXsAO3D_MaKJ1Htw-GCoMVBAQE6Q_kBOki7BykKcUUoQLqD5sPcL4Wxl2uDa8FgRwDAZ-J0ALmugiA_Uyg35AG"}
+
+8. POST https://www.google.com/ccm/collect
+   Type: fetch
+   Params: {"rcb":"9","frm":"0","apvc":"1","ae":"g","auid":"1801713500.1787378179","dt":"‎Gemini - akses langsung ke AI Google","en":"page_view","dl":"https://gemini.google.com/share/b1493cbc4a17?skid=289a934e-5432-4462-b43d-dcd739f84ed6","scrsrc":"www.googletagmanager.com","rnd":"793671427.1787387910","navt":"n","npa":"0","ep.ads_data_redaction":"0","gtm":"45He68j0h1v9113054662za200zd9113054662xea","gcd":"13l3l3l3l1l1","dma":"0","tag_exp":"115938466~115938468~118897920~118897930~120315471","tft":"1787387910261","tfd":"534","fmt":"8"}

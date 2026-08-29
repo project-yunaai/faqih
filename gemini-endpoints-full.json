@@ -1,0 +1,296 @@
+{
+  "metadata": {
+    "captureTime": "2026-08-22T08:39:23.724Z",
+    "totalRequests": 32,
+    "uniqueEndpoints": 8,
+    "shareUrl": "https://gemini.google.com/share/b1493cbc4a17?skid=289a934e-5432-4462-b43d-dcd739f84ed6"
+  },
+  "endpoints": [
+    {
+      "method": "GET",
+      "baseUrl": "https://4hzb3lj06hkghsenvsb9t56d0721814dm720zwhz0698xwzc2w-h966586903.scf.usercontent.goog/gemini-code-immersive/shim.html",
+      "fullUrl": "https://4hzb3lj06hkghsenvsb9t56d0721814dm720zwhz0698xwzc2w-h966586903.scf.usercontent.goog/gemini-code-immersive/shim.html?origin=https%3A%2F%2Fgemini.google.com&cache=1",
+      "type": "document",
+      "params": {
+        "origin": "https://gemini.google.com",
+        "cache": "1"
+      }
+    },
+    {
+      "method": "GET",
+      "baseUrl": "https://accounts.google.com/RotateCookiesPage",
+      "fullUrl": "https://accounts.google.com/RotateCookiesPage?og_pid=658&rot=3&origin=https%3A%2F%2Fgemini.google.com&exp_id=0",
+      "type": "document",
+      "params": {
+        "og_pid": "658",
+        "rot": "3",
+        "origin": "https://gemini.google.com",
+        "exp_id": "0"
+      }
+    },
+    {
+      "method": "POST",
+      "baseUrl": "https://gemini.google.com/_/BardChatUi/data/batchexecute",
+      "fullUrl": "https://gemini.google.com/_/BardChatUi/data/batchexecute?rpcids=otAQ7b&source-path=%2Fshare%2Fb1493cbc4a17&bl=boq_assistant-bard-web-server_20260821.03_p0&f.sid=6751928901003072751&hl=id&_reqid=59911&rt=c",
+      "type": "xhr",
+      "params": {
+        "rpcids": "otAQ7b",
+        "source-path": "/share/b1493cbc4a17",
+        "bl": "boq_assistant-bard-web-server_20260821.03_p0",
+        "f.sid": "-5870882458683897408",
+        "hl": "id",
+        "_reqid": "59911",
+        "rt": "c"
+      }
+    },
+    {
+      "method": "GET",
+      "baseUrl": "https://gemini.google.com/_/bscframe",
+      "fullUrl": "https://gemini.google.com/_/bscframe",
+      "type": "document",
+      "params": {}
+    },
+    {
+      "method": "GET",
+      "baseUrl": "https://gemini.google.com/generate_204",
+      "fullUrl": "https://gemini.google.com/generate_204?V5C6QA",
+      "type": "image",
+      "params": {
+        "V5C6QA": ""
+      }
+    },
+    {
+      "method": "GET",
+      "baseUrl": "https://gemini.google.com/share/b1493cbc4a17",
+      "fullUrl": "https://gemini.google.com/share/b1493cbc4a17?skid=289a934e-5432-4462-b43d-dcd739f84ed6",
+      "type": "document",
+      "params": {
+        "skid": "289a934e-5432-4462-b43d-dcd739f84ed6"
+      }
+    },
+    {
+      "method": "GET",
+      "baseUrl": "https://ogs.google.com/u/0/widget/app",
+      "fullUrl": "https://ogs.google.com/u/0/widget/app?eom=1&awwd=1&em=2&scv=1&dpi=103135050&origin=https%3A%2F%2Fgemini.google.com&cn=app&pid=269&spid=658&hl=id&xstg=CAMSuQUVsQLM2swNqASxpNAFsCrJ5_kO0_UF6wK33rsXnsL6A-Esk_TcBtkFze8GpvwEPrB5vkuLBdOiBqPXBuWjBUK1wAaIO-TzBZDlDrbtBtwa2poGlwXPVZZbjm0D2GenVPYJuxOyEqQA4N8Go1E6qFmmBprYBqVKnD7TBbFLn8UGCIFiXNc46I0GygYwpyPwF7BezEPFNaps3R67FooEbu0AsUyxLIsUFJ8-sja7PvGRBtwUUtoL5hHzLd1LJoESmHzdGqkay6oGoVHHErhKjGPjFJ8FzCi4LsdNnB2PD5LumwaN3DDY3p4GntdHggulRsJCnCailgOKAoUusBNw40icboh-1xalHY6wBt7TBckLm44G3gQFqRepROQAugv6LsQCtAID3B2SgQavWAP-PMGaBsOaBT7ebP4bgQPXtwbxG88DskYPA8sZhBPkDd4mlSaJEOwzhkOHNPcEjju2EyuEP_A9A64jyj7zN4MTxPkG8CahBukt6hKkM9II3C-wDvUF9SqIKa86_CmIGapxmnQDA65lgAME1gGxTM0IhSG-JJ4ZiA38EalXAwNJpQLNDQMDI8oDAwP5EzwDA-YZsATJBAPeI062Aqk48TrFaMsxqyREA_t9zBuRJNgGA9kC-gMDA8MewQHuDJEroV2_AMklA4cKygmYAcwaRAMDAwOHEOEFxAWGTasJhzfiA8gK0wA_0BziH48C0BSFEWLwHfsswRfeNokWrAqeGcQFCY4ZlAbQI_xM4wz5cdssqD8DA4hVA5wLqArjEMU9owLWIu085wHAJd1HuCGOI_EFjCXcM44GmGaeGB7MDe8Op1wD6wbZrQawHarvBuIXsAO3D_MaKJ1Htw-GCoMVBAQE6Q_kBOki7BykKcUUoQLqD5sPcL4Wxl2uDa8FgRwDAZ-J0ALmugiA_Uyg35AG",
+      "type": "document",
+      "params": {
+        "eom": "1",
+        "awwd": "1",
+        "em": "2",
+        "scv": "1",
+        "dpi": "103135050",
+        "origin": "https://gemini.google.com",
+        "cn": "app",
+        "pid": "269",
+        "spid": "658",
+        "hl": "id",
+        "xstg": "CAMSuQUVsQLM2swNqASxpNAFsCrJ5_kO0_UF6wK33rsXnsL6A-Esk_TcBtkFze8GpvwEPrB5vkuLBdOiBqPXBuWjBUK1wAaIO-TzBZDlDrbtBtwa2poGlwXPVZZbjm0D2GenVPYJuxOyEqQA4N8Go1E6qFmmBprYBqVKnD7TBbFLn8UGCIFiXNc46I0GygYwpyPwF7BezEPFNaps3R67FooEbu0AsUyxLIsUFJ8-sja7PvGRBtwUUtoL5hHzLd1LJoESmHzdGqkay6oGoVHHErhKjGPjFJ8FzCi4LsdNnB2PD5LumwaN3DDY3p4GntdHggulRsJCnCailgOKAoUusBNw40icboh-1xalHY6wBt7TBckLm44G3gQFqRepROQAugv6LsQCtAID3B2SgQavWAP-PMGaBsOaBT7ebP4bgQPXtwbxG88DskYPA8sZhBPkDd4mlSaJEOwzhkOHNPcEjju2EyuEP_A9A64jyj7zN4MTxPkG8CahBukt6hKkM9II3C-wDvUF9SqIKa86_CmIGapxmnQDA65lgAME1gGxTM0IhSG-JJ4ZiA38EalXAwNJpQLNDQMDI8oDAwP5EzwDA-YZsATJBAPeI062Aqk48TrFaMsxqyREA_t9zBuRJNgGA9kC-gMDA8MewQHuDJEroV2_AMklA4cKygmYAcwaRAMDAwOHEOEFxAWGTasJhzfiA8gK0wA_0BziH48C0BSFEWLwHfsswRfeNokWrAqeGcQFCY4ZlAbQI_xM4wz5cdssqD8DA4hVA5wLqArjEMU9owLWIu085wHAJd1HuCGOI_EFjCXcM44GmGaeGB7MDe8Op1wD6wbZrQawHarvBuIXsAO3D_MaKJ1Htw-GCoMVBAQE6Q_kBOki7BykKcUUoQLqD5sPcL4Wxl2uDa8FgRwDAZ-J0ALmugiA_Uyg35AG"
+      }
+    },
+    {
+      "method": "POST",
+      "baseUrl": "https://www.google.com/ccm/collect",
+      "fullUrl": "https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=1&ae=g&auid=1801713500.1787378179&dt=%E2%80%8EGemini%20-%20akses%20langsung%20ke%20AI%20Google&en=page_view&dl=https%3A%2F%2Fgemini.google.com%2Fshare%2Fb1493cbc4a17%3Fskid%3D289a934e-5432-4462-b43d-dcd739f84ed6&scrsrc=www.googletagmanager.com&rnd=793671427.1787387910&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He68j0h1v9113054662za200zd9113054662xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120315471&tft=1787387910261&tfd=534&fmt=8",
+      "type": "fetch",
+      "params": {
+        "rcb": "9",
+        "frm": "0",
+        "apvc": "1",
+        "ae": "g",
+        "auid": "1801713500.1787378179",
+        "dt": "‎Gemini - akses langsung ke AI Google",
+        "en": "page_view",
+        "dl": "https://gemini.google.com/share/b1493cbc4a17?skid=289a934e-5432-4462-b43d-dcd739f84ed6",
+        "scrsrc": "www.googletagmanager.com",
+        "rnd": "793671427.1787387910",
+        "navt": "n",
+        "npa": "0",
+        "ep.ads_data_redaction": "0",
+        "gtm": "45He68j0h1v9113054662za200zd9113054662xea",
+        "gcd": "13l3l3l3l1l1",
+        "dma": "0",
+        "tag_exp": "115938466~115938468~118897920~118897930~120315471",
+        "tft": "1787387910261",
+        "tfd": "534",
+        "fmt": "8"
+      }
+    }
+  ],
+  "responseBodies": [
+    {
+      "status": 200,
+      "url": "https://gemini.google.com/_/BardChatUi/data/batchexecute?rpcids=GPRiHf&source-path=%2Fshare%2Fb1493cbc4a17&bl=boq_assist",
+      "contentType": "application/json; charset=utf-8",
+      "bodyPreview": ")]}'\n\n106\n[[\"wrb.fr\",\"GPRiHf\",\"[]\",null,null,null,\"generic\"],[\"di\",84],[\"af.httprm\",83,\"4405977268320400896\",125]]\n25\n[[\"e\",4,null,null,142]]\n",
+      "bodyLength": 142
+    },
+    {
+      "status": 200,
+      "url": "https://gemini.google.com/_/BardChatUi/data/batchexecute?rpcids=otAQ7b&source-path=%2Fshare%2Fb1493cbc4a17&bl=boq_assist",
+      "contentType": "application/json; charset=utf-8",
+      "bodyPreview": ")]}'\n\n6460\n[[\"wrb.fr\",\"otAQ7b\",\"[1,[false,null,false],false,null,null,null,false,null,null,null,null,null,false,false,null,[[\\\"cf41b0e0dd7d53e5\\\",\\\"Flash-Lite\\\",\\\"Jawaban tercepat\\\",[2,140,1,3,4,5,6,135,7,8,62,9,10,11,231,66,98,99,100,64,12,97,111,72,73,74,0,18,20,22,25,127,129,61,86,95,87,90,91,51,218,139,80,82,229,117,26,60,32,184,70,93,112,113,116,124,204,133,166,136,142,143,144,149,154,164,158,159,161,170,177,183,209,181,189,190,191,195,201,211,225,235,236,237,238,239,241,242],1,null,[\\\"1bc6",
+      "bodyLength": 6559
+    },
+    {
+      "status": 200,
+      "url": "https://gemini.google.com/_/BardChatUi/data/batchexecute?rpcids=whPPme&source-path=%2Fshare%2Fb1493cbc4a17&bl=boq_assist",
+      "contentType": "application/json; charset=utf-8",
+      "bodyPreview": ")]}'\n\n108\n[[\"wrb.fr\",\"whPPme\",\"[]\",null,null,null,\"generic\"],[\"di\",347],[\"af.httprm\",347,\"6424898498707857938\",125]]\n25\n[[\"e\",4,null,null,144]]\n",
+      "bodyLength": 144
+    },
+    {
+      "status": 200,
+      "url": "https://gemini.google.com/_/BardChatUi/data/batchexecute?rpcids=sJBwce&source-path=%2Fshare%2Fb1493cbc4a17&bl=boq_assist",
+      "contentType": "application/json; charset=utf-8",
+      "bodyPreview": ")]}'\n\n1206\n[[\"wrb.fr\",\"sJBwce\",\"[[[[null,null,null,[[[[null,\\\"Upgrade\\\"]],4,[null,[[null,null,\\\"https://one.google.com/ai?utm_source\\\\u003dgemini\\\\u0026utm_medium\\\\u003dweb\\\\u0026utm_campaign\\\\u003dgemini_ail_upsell_zero_state_banner\\\\u0026authuser\\\\u003d0\\\"]],null,null,null,null,null,null,null,null,null,null,\\\"GEMINI_ZERO_STATE_UPGRADE_BUTTON\\\"]],[[[null,null,\\\"https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/spark/default/24px.svg\\\"]]]],\\\"GEMINI_ZERO_STATE_UPGRADE_BUTTON\\\"],[[[4]",
+      "bodyLength": 1244
+    },
+    {
+      "status": 200,
+      "url": "https://gemini.google.com/_/BardChatUi/data/batchexecute?rpcids=ujx1Bf&source-path=%2Fshare%2Fb1493cbc4a17&bl=boq_assist",
+      "contentType": "application/json; charset=utf-8",
+      "bodyPreview": ")]}'\n\n53340\n[[\"wrb.fr\",\"ujx1Bf\",\"[[null,[[[\\\"c_9017e63fffb09801\\\",\\\"r_3667276cdfb408ad\\\"],null,[[\\\"buatkn aplikasi generate gambar, pastikan support image refrensi. lengkap dengan rasio\\\"],2,null,1,\\\"e6fa609c3fa255c0\\\",null,2,null,false,null,[]],[[[\\\"rc_f6fb9324bf0ca605\\\",[\\\"Saya akan membuatkan aplikasi Image Generator menggunakan React (JSX) yang berjalan dalam satu file. Aplikasi ini akan memiliki antarmuka yang modern (Dark Mode), mendukung upload gambar referensi untuk fitur *image-to-image",
+      "bodyLength": 53441
+    },
+    {
+      "status": 200,
+      "url": "https://gemini.google.com/_/BardChatUi/data/batchexecute?rpcids=ESY5D&source-path=%2Fshare%2Fb1493cbc4a17&bl=boq_assista",
+      "contentType": "application/json; charset=utf-8",
+      "bodyPreview": ")]}'\n\n558\n[[\"wrb.fr\",\"ESY5D\",\"[[null,null,true,null,null,null,null,null,null,null,null,null,null,null,null,true,null,true,null,null,null,null,null,[[\\\"JASMINE\\\"]],true,{\\\"41\\\":false,\\\"48\\\":false,\\\"72\\\":false,\\\"77\\\":true,\\\"78\\\":true,\\\"87\\\":14,\\\"93\\\":true,\\\"94\\\":\\\"NULL\\\",\\\"96\\\":[[\\\"\\\"]],\\\"100\\\":\\\"9d8ca3786ebdfbea\\\",\\\"110\\\":1787374081,\\\"165\\\":\\\"fbb127bbb056c959\\\",\\\"177\\\":[[\\\"Flash3p6PaidV2Rollout:3\\\"]],\\\"179\\\":\\\"2025-12-16\\\",\\\"259\\\":false,\\\"260\\\":1787374077,\\\"265\\\":1,\\\"291\\\":false}]]\",null,null,nul",
+      "bodyLength": 594
+    },
+    {
+      "status": 200,
+      "url": "https://gemini.google.com/_/BardChatUi/data/batchexecute?rpcids=ESY5D&source-path=%2Fshare%2Fb1493cbc4a17&bl=boq_assista",
+      "contentType": "application/json; charset=utf-8",
+      "bodyPreview": ")]}'\n\n131\n[[\"wrb.fr\",\"ESY5D\",\"[[null,null,null,null,true]]\",null,null,null,\"generic\"],[\"di\",98],[\"af.httprm\",97,\"-8128586869096863290\",64]]\n25\n[[\"e\",4,null,null,167]]\n",
+      "bodyLength": 167
+    },
+    {
+      "status": 200,
+      "url": "https://gemini.google.com/_/BardChatUi/data/batchexecute?rpcids=Te6DCf&source-path=%2Fshare%2Fb1493cbc4a17&bl=boq_assist",
+      "contentType": "application/json; charset=utf-8",
+      "bodyPreview": ")]}'\n\n17549\n[[\"wrb.fr\",\"Te6DCf\",\"[null,[[\\\"snappy_cirrus\\\",[\\\"Unlock BTS\\\",\\\"7777\\\"],\\\"Jelajahi dunia BTS dengan ide khusus untukmu 🎤\\\",[[\\\"Lihat pertanyaan BTS ke Gemini\\\",\\\"Tunjukkan aku pertanyaan yang ditanyakan member BTS ke Gemini dan ide kreatif apa yang mereka mau eksplor, supaya aku bisa tahu apa aja yang bikin mereka terinspirasi.\\\",null,[\\\"https://www.gstatic.com/lamda/images/discovery/snappy_cirrus/ask_icon_blue_34316e9f5f8ab7745ad75.webp\\\"],\\\"Tunjukkan aku pertanyaan yang ditanyaka",
+      "bodyLength": 17649
+    },
+    {
+      "status": 200,
+      "url": "https://gemini.google.com/_/BardChatUi/data/batchexecute?rpcids=maGuAc&source-path=%2Fshare%2Fb1493cbc4a17&bl=boq_assist",
+      "contentType": "application/json; charset=utf-8",
+      "bodyPreview": ")]}'\n\n108\n[[\"wrb.fr\",\"maGuAc\",\"[]\",null,null,null,\"generic\"],[\"di\",429],[\"af.httprm\",429,\"5809340008095423183\",125]]\n25\n[[\"e\",4,null,null,144]]\n",
+      "bodyLength": 144
+    },
+    {
+      "status": 200,
+      "url": "https://gemini.google.com/_/BardChatUi/data/batchexecute?rpcids=MaZiqc&source-path=%2Fshare%2Fb1493cbc4a17&bl=boq_assist",
+      "contentType": "application/json; charset=utf-8",
+      "bodyPreview": ")]}'\n\n107\n[[\"wrb.fr\",\"MaZiqc\",\"[]\",null,null,null,\"generic\"],[\"di\",107],[\"af.httprm\",106,\"5603080314602770433\",64]]\n25\n[[\"e\",4,null,null,143]]\n",
+      "bodyLength": 143
+    },
+    {
+      "status": 200,
+      "url": "https://gemini.google.com/_/BardChatUi/data/batchexecute?rpcids=MaZiqc&source-path=%2Fshare%2Fb1493cbc4a17&bl=boq_assist",
+      "contentType": "application/json; charset=utf-8",
+      "bodyPreview": ")]}'\n\n688\n[[\"wrb.fr\",\"MaZiqc\",\"[null,null,[[\\\"c_e9607d46203f5e90\\\",\\\"Alpine Sunset Landscape Prompt Expansion\\\",null,null,null,[1787385725,665610000],null,null,null,1,null,null,null,null,null,null,null,null,null,null,null,\\\"rc_d2dccd1e95d6210a\\\"],[\\\"c_bc9e91ee9029b884\\\",\\\"Image Generator App\\\",null,null,null,[1787381450,496311000],null,null,null,1,null,null,null,null,null,null,null,null,null,null,null,\\\"rc_a662f46c507def2d\\\"],[\\\"c_92e28483472d0f1f\\\",\\\"Image Generator App\\\",null,null,null,[178738",
+      "bodyLength": 724
+    },
+    {
+      "status": 200,
+      "url": "https://gemini.google.com/_/BardChatUi/data/batchexecute?rpcids=maGuAc&source-path=%2Fshare%2Fb1493cbc4a17&bl=boq_assist",
+      "contentType": "application/json; charset=utf-8",
+      "bodyPreview": ")]}'\n\n109\n[[\"wrb.fr\",\"maGuAc\",\"[]\",null,null,null,\"generic\"],[\"di\",538],[\"af.httprm\",538,\"-8836473380533578769\",125]]\n25\n[[\"e\",4,null,null,145]]\n",
+      "bodyLength": 145
+    },
+    {
+      "status": 200,
+      "url": "https://gemini.google.com/_/BardChatUi/data/batchexecute?rpcids=VxUbXb&source-path=%2Fshare%2Fb1493cbc4a17&bl=boq_assist",
+      "contentType": "application/json; charset=utf-8",
+      "bodyPreview": ")]}'\n\n644\n[[\"wrb.fr\",\"VxUbXb\",\"[null,null,[[5,[1787986327,522763000],1,\\\"Batas direset pada {REFILL_TIME}\\\",[1]],[27,[1787986327,522763000],1,\\\"Batas direset pada {REFILL_TIME}\\\",[2,3],[[\\\"Anda telah mencapai batas penggunaan saat ini\\\"],[\\\"Beberapa fitur tidak tersedia hingga batas Anda direset pada 29 Agu pukul 14.52. Upgrade untuk mendapatkan batas yang lebih tinggi dan lainnya.\\\",null,null,\\\"Some features aren’t available until your limit resets. Upgrade for higher limits and more.\\\"],[[[\\\"L",
+      "bodyLength": 680
+    },
+    {
+      "status": 200,
+      "url": "https://gemini.google.com/_/BardChatUi/data/batchexecute?rpcids=L5adhe&source-path=%2Fshare%2Fb1493cbc4a17&bl=boq_assist",
+      "contentType": "application/json; charset=utf-8",
+      "bodyPreview": ")]}'\n\n108\n[[\"wrb.fr\",\"L5adhe\",\"[1]\",null,null,null,\"generic\"],[\"di\",180],[\"af.httprm\",179,\"5046381973014560660\",32]]\n25\n[[\"e\",4,null,null,144]]\n",
+      "bodyLength": 144
+    },
+    {
+      "status": 200,
+      "url": "https://gemini.google.com/_/BardChatUi/data/batchexecute?rpcids=L5adhe&source-path=%2Fshare%2Fb1493cbc4a17&bl=boq_assist",
+      "contentType": "application/json; charset=utf-8",
+      "bodyPreview": ")]}'\n\n108\n[[\"wrb.fr\",\"L5adhe\",\"[1]\",null,null,null,\"generic\"],[\"di\",197],[\"af.httprm\",197,\"7934323077171445567\",31]]\n25\n[[\"e\",4,null,null,144]]\n",
+      "bodyLength": 144
+    },
+    {
+      "status": 200,
+      "url": "https://gemini.google.com/_/BardChatUi/data/batchexecute?rpcids=Bsxleb&source-path=%2Fshare%2Fb1493cbc4a17&bl=boq_assist",
+      "contentType": "application/json; charset=utf-8",
+      "bodyPreview": ")]}'\n\n307\n[[\"wrb.fr\",\"Bsxleb\",\"[[[null,[1],null,[40]],[null,[1],null,[41]],[null,[1],null,[43]],[null,[1],null,[42]],[null,[3],null,[20]],[null,[3],null,[46]]],[[1],null,[1]],null,[null,null,\\\"E9B87CE6-F3BB-44DE-9130-CE485A703019\\\"]]\",null,null,null,\"generic\"],[\"di\",332],[\"af.httprm\",332,\"-235426780117216268\",32]]\n25\n[[\"e\",4,null,null,343]]\n",
+      "bodyLength": 343
+    },
+    {
+      "status": 200,
+      "url": "https://gemini.google.com/_/BardChatUi/data/batchexecute?rpcids=ozz5Z&source-path=%2Fshare%2Fb1493cbc4a17&bl=boq_assista",
+      "contentType": "application/json; charset=utf-8",
+      "bodyPreview": ")]}'\n\n399\n[[\"wrb.fr\",\"ozz5Z\",\"[[[[null,\\\"1\\\",447],null,0],[[null,\\\"1\\\",448],null,0],[[null,\\\"1\\\",702],null,0],[[null,\\\"1\\\",961],null,0],[[null,\\\"1\\\",960],null,0],[[null,\\\"1\\\",1062],null,0],[[null,\\\"1\\\",1240],null,0],[[null,\\\"1\\\",1237],null,0],[[null,\\\"1\\\",1238],null,0],[[null,\\\"1\\\",1239],null,0],[[null,\\\"1\\\",1241],null,0]]]\",null,null,null,\"generic\"],[\"di\",252],[\"af.httprm\",251,\"5468123504691834649\",31]]\n25\n[[\"e\",4,null,null,435]]\n",
+      "bodyLength": 435
+    },
+    {
+      "status": 200,
+      "url": "https://gemini.google.com/_/BardChatUi/data/batchexecute?rpcids=aPya6c&source-path=%2Fshare%2Fb1493cbc4a17&bl=boq_assist",
+      "contentType": "application/json; charset=utf-8",
+      "bodyPreview": ")]}'\n\n117\n[[\"wrb.fr\",\"aPya6c\",\"[false,0,[]]\",null,null,null,\"generic\"],[\"di\",142],[\"af.httprm\",141,\"7527819576712269194\",31]]\n25\n[[\"e\",4,null,null,153]]\n",
+      "bodyLength": 153
+    },
+    {
+      "status": 200,
+      "url": "https://gemini.google.com/_/BardChatUi/data/batchexecute?rpcids=qpEbW&source-path=%2Fshare%2Fb1493cbc4a17&bl=boq_assista",
+      "contentType": "application/json; charset=utf-8",
+      "bodyPreview": ")]}'\n\n176\n[[\"wrb.fr\",\"qpEbW\",\"[[[[null,11],2,5,[1787986327,522763000],600,567]],\\\"9d8ca3786ebdfbea\\\"]\",null,null,null,\"generic\"],[\"di\",554],[\"af.httprm\",554,\"-4510527108654727391\",31]]\n25\n[[\"e\",4,null,null,212]]\n",
+      "bodyLength": 212
+    },
+    {
+      "status": 200,
+      "url": "https://gemini.google.com/_/BardChatUi/data/batchexecute?rpcids=L5adhe&source-path=%2Fshare%2Fb1493cbc4a17&bl=boq_assist",
+      "contentType": "application/json; charset=utf-8",
+      "bodyPreview": ")]}'\n\n108\n[[\"wrb.fr\",\"L5adhe\",\"[1]\",null,null,null,\"generic\"],[\"di\",178],[\"af.httprm\",177,\"7651186689017072021\",30]]\n25\n[[\"e\",4,null,null,144]]\n",
+      "bodyLength": 144
+    },
+    {
+      "status": 200,
+      "url": "https://gemini.google.com/_/BardChatUi/data/batchexecute?rpcids=zCCiu&source-path=%2Fshare%2Fb1493cbc4a17&bl=boq_assista",
+      "contentType": "application/json; charset=utf-8",
+      "bodyPreview": ")]}'\n\n106534\n[[\"wrb.fr\",\"zCCiu\",\"[\\\"\\\\u003c!DOCTYPE html\\\\u003e\\\\n\\\\u003chtml class\\\\u003d\\\\\\\"\\\\\\\"\\\\u003e\\\\n    \\\\u003chead\\\\u003e\\\\n        \\\\u003cmeta charset\\\\u003d\\\\\\\"utf-8\\\\\\\"\\\\u003e\\\\n        \\\\u003cstyle\\\\u003e\\\\n            .error-boundary {\\\\n                border: 2px dashed rgba(255, 0, 0, 0.3);\\\\n                position: relative;\\\\n            }\\\\n            .error-boundary::after {\\\\n                content: \\\\\\\"⚠️\\\\\\\";\\\\n                position: absolute;\\\\n                top",
+      "bodyLength": 106635
+    },
+    {
+      "status": 200,
+      "url": "https://gemini.google.com/_/BardChatUi/data/batchexecute?rpcids=rJGHib&source-path=%2Fshare%2Fb1493cbc4a17&bl=boq_assist",
+      "contentType": "application/json; charset=utf-8",
+      "bodyPreview": ")]}'\n\n1040\n[[\"wrb.fr\",\"rJGHib\",\"[\\\"eyJhbGciOiJSUzI1NiIsImtpZCI6IjExNjRiNzdiNDMzZDdhMDAyMWI4NjE4YjhjYTU3ZTMyZGI5MWUxMTMiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIxNzIzNjM4OTA0NjQ3NDQ2ODAzNSIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbG",
+      "bodyLength": 1078
+    },
+    {
+      "status": 200,
+      "url": "https://gemini.google.com/_/BardChatUi/data/batchexecute?rpcids=qpEbW&source-path=%2Fshare%2Fb1493cbc4a17&bl=boq_assista",
+      "contentType": "application/json; charset=utf-8",
+      "bodyPreview": ")]}'\n\n175\n[[\"wrb.fr\",\"qpEbW\",\"[[[[null,4],2,5,[1787986327,522763000],600,566]],\\\"9d8ca3786ebdfbea\\\"]\",null,null,null,\"generic\"],[\"di\",499],[\"af.httprm\",498,\"-8273719355741336741\",29]]\n25\n[[\"e\",4,null,null,211]]\n",
+      "bodyLength": 211
+    },
+    {
+      "status": 200,
+      "url": "https://gemini.google.com/_/BardChatUi/data/batchexecute?rpcids=q4uTj&source-path=%2Fshare%2Fb1493cbc4a17&bl=boq_assista",
+      "contentType": "application/json; charset=utf-8",
+      "bodyPreview": ")]}'\n\n2486312\n[[\"wrb.fr\",\"q4uTj\",\"[\\\"{\\\\\\\"candidates\\\\\\\":[{\\\\\\\"content\\\\\\\":{\\\\\\\"parts\\\\\\\":[{\\\\\\\"inlineData\\\\\\\":{\\\\\\\"mimeType\\\\\\\":\\\\\\\"image/jpeg\\\\\\\",\\\\\\\"data\\\\\\\":\\\\\\\"/9j/4AAQSkZJRgABAQEBLAEsAAD/6xeGSlAAAQAAAAEAABd8anVtYgAAAB5qdW1kYzJwYQARABCAAACqADibcQNjMnBhAAAAF1ZqdW1iAAAAR2p1bWRjMm1hABEAEIAAAKoAOJtxA3VybjpjMnBhOmUwNDdiYjg0LTQzNjQtNWUwOC0yZTNkLTQ3YThkYjJiNGU5MwAAABL/anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABLPY2JvctKEWQYqogEmGCGCWQM+MIIDOjCCAsCgAwIBAgIUAKczbAw34ANv94HsGPTaD8O",
+      "bodyLength": 2486417
+    },
+    {
+      "status": 200,
+      "url": "https://gemini.google.com/_/BardChatUi/data/batchexecute?rpcids=q4uTj&source-path=%2Fshare%2Fb1493cbc4a17&bl=boq_assista",
+      "contentType": "application/json; charset=utf-8",
+      "bodyPreview": ")]}'\n\n3148944\n[[\"wrb.fr\",\"q4uTj\",\"[\\\"{\\\\\\\"candidates\\\\\\\":[{\\\\\\\"content\\\\\\\":{\\\\\\\"parts\\\\\\\":[{\\\\\\\"inlineData\\\\\\\":{\\\\\\\"mimeType\\\\\\\":\\\\\\\"image/jpeg\\\\\\\",\\\\\\\"data\\\\\\\":\\\\\\\"/9j/4AAQSkZJRgABAQAAAQABAAD/6xjGSlAAAQAAAAEAABi8anVtYgAAAB5qdW1kYzJwYQARABCAAACqADibcQNjMnBhAAAAGJZqdW1iAAAAR2p1bWRjMm1hABEAEIAAAKoAOJtxA3VybjpjMnBhOjM2NmI4Njg1LWNhYmUtNzZhMy1mZWViLTQyNDgwN2Q5MmVkNwAAABL/anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABLPY2JvctKEWQYqogEmGCGCWQM+MIIDOjCCAsCgAwIBAgIUAKczbAw34ANv94HsGPTaD8O",
+      "bodyLength": 3149052
+    }
+  ]
+}

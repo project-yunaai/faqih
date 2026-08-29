@@ -1,0 +1,65 @@
+[
+  {
+    "frameUrl": "https://gemini.google.com/share/b1493cbc4a17?skid=289a934e-5432-4462-b43d-dcd739",
+    "elements": [
+      {
+        "tag": "button",
+        "type": "submit",
+        "role": "",
+        "ariaLabel": "Dengarkan",
+        "text": "",
+        "visible": false
+      },
+      {
+        "tag": "button",
+        "type": "submit",
+        "role": "",
+        "ariaLabel": "",
+        "text": "Coba Gemini Canvas",
+        "visible": true
+      }
+    ]
+  },
+  {
+    "frameUrl": "blob:https://4hzb3lj06hkghsenvsb9t56d0721814dm720zwhz0698xwzc2w-h966586903.scf.u",
+    "elements": [
+      {
+        "tag": "textarea",
+        "type": "textarea",
+        "role": "",
+        "ariaLabel": "",
+        "text": "",
+        "visible": true
+      },
+      {
+        "tag": "input",
+        "type": "file",
+        "role": "",
+        "ariaLabel": "",
+        "text": "",
+        "visible": false
+      },
+      {
+        "tag": "button",
+        "type": "submit",
+        "role": "",
+        "ariaLabel": "",
+        "text": "Generate Gambar",
+        "visible": true
+      }
+    ]
+  },
+  {
+    "frameUrl": "https://ogs.google.com/u/0/widget/app?eom=1&awwd=1&em=2&scv=1&dpi=103135050&orig",
+    "elements": [
+      {
+        "tag": "button",
+        "type": "submit",
+        "role": "",
+        "ariaLabel": "Edit",
+        "text": "",
+        "visible": true
+      }
+    ]
+  }
+]

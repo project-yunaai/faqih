@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Browser profile & sensitive data
+.chrome-profile
+*cookies*
+*cookie*
+captured-request-bodies.json
+gemini-response-bodies.json
+request-captures.json
+test-body.json
+q4uTj-response.txt
+backend.log
+*.log
+logs
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Token dinamis (session-specific)
+gemini-tokens.json

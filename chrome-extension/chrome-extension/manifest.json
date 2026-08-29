@@ -1,0 +1,49 @@
+{
+  "manifest_version": 3,
+  "name": "Gemini Token Capture",
+  "version": "2.0.0",
+  "description": "Capture tokens, cookies & TTS endpoint dari Gemini untuk AI Studio",
+  "permissions": [
+    "cookies",
+    "activeTab",
+    "scripting",
+    "storage",
+    "tabs",
+    "webRequest",
+    "alarms"
+  ],
+  "host_permissions": [
+    "https://gemini.google.com/*",
+    "https://accounts.google.com/*",
+    "https://*.google.com/*",
+    "https://*.google.co.id/*",
+    "https://*.googleusercontent.com/*",
+    "http://localhost:3001/*",
+    "http://localhost:3002/*",
+    "http://localhost:3010/*",
+    "http://localhost:5173/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://gemini.google.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
