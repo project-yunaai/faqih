@@ -138,8 +138,9 @@ footer .brand-mark svg { width: 14px; }
     background: rgba(13,12,18,.97); backdrop-filter: blur(12px);
     box-shadow: 0 -8px 30px rgba(0,0,0,.45);
   }
-  .brand { font-size: 0; gap: 0; }
+  .brand { flex-direction: column; gap: 3px; padding: 0 4px; }
   .brand-mark { width: 36px; height: 36px; border-radius: 11px; }
+  .brand-text { font-size: 10px; font-weight: 800; line-height: 1; letter-spacing: .02em; }
   .side-nav { flex-direction: row; gap: 4px; margin: 0; flex: 1; justify-content: center; }
   .side-label { display: none; }
   .side-item { flex-direction: column; gap: 3px; font-size: 10px; font-weight: 700; padding: 7px 14px; border-radius: 12px; }
@@ -185,7 +186,8 @@ footer .brand-mark svg { width: 14px; }
   .gallery article p { min-height: auto; }
 
   footer { padding: 20px 16px 26px; flex-wrap: wrap; gap: 12px; text-align: center; justify-content: center; }
-  footer .brand { font-size: 0; }
+  footer .brand { flex-direction: row; gap: 8px; }
+  footer .brand-text { font-size: 15px; }
 }
 
 /* Layar sangat kecil (<=360px) */

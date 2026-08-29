@@ -99,7 +99,7 @@ function App() {
       <aside className="sidebar">
         <a className="brand" href="#top" aria-label="Yuna AI home">
           <span className="brand-mark"><Icon name="sparkles" /></span>
-          <span>Yuna<span>AI</span></span>
+          <span className="brand-text">Yuna<span>AI</span></span>
         </a>
 
         <nav className="side-nav" role="tablist">
