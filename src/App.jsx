@@ -106,10 +106,6 @@ function App() {
           <span className="side-label">Studio</span>
           <button className={mode === 'text' ? 'side-item active' : 'side-item'} onClick={() => setMode('text')} type="button"><Icon name="sparkles" /> Text to image</button>
           <button className={mode === 'image' ? 'side-item active' : 'side-item'} onClick={() => setMode('image')} type="button"><Icon name="image" /> Image to image</button>
-
-          <span className="side-label">Resources</span>
-          <a className="side-item" href="/admin/" target="_blank" rel="noreferrer"><Icon name="download" /> Token Keeper</a>
-          <a className="side-item" href="https://gemini.google.com/app" target="_blank" rel="noreferrer"><Icon name="plus" /> Open Gemini</a>
         </nav>
 
         <div className="side-footer">
