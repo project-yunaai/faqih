@@ -505,6 +505,27 @@ app.post('/api/image-to-image', async (req, res) => {
   }
 })
 
+// === Token Keeper (VPS auto-harvest) ===
+const KEEPER_URL = `http://127.0.0.1:3011`
+
+app.get('/api/keeper/status', async (_req, res) => {
+  try {
+    const r = await axios.get(`${KEEPER_URL}/status`, { timeout: 5000 })
+    res.json(r.data)
+  } catch (e) {
+    res.json({ running: false, error: e.message })
+  }
+})
+
+app.post('/api/keeper/harvest', async (_req, res) => {
+  try {
+    const r = await axios.post(`${KEEPER_URL}/harvest`, {}, { timeout: 110000 })
+    res.json(r.data)
+  } catch (e) {
+    res.status(500).json({ error: e.message })
+  }
+})
+
 // === Terima tokens dari ekstensi Chrome (enhanced) - MERGED di atas, endpoint legacy berikut tetap untuk kompatibilitas ===
 
 // === Start ===
